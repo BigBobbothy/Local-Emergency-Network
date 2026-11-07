@@ -1,0 +1,21 @@
+{
+  "name": "inactivity-monitor",
+  "version": "0.1.0",
+  "description": "Personalised, privacy-preserving detection of unusually prolonged inactivity (JS port).",
+  "type": "module",
+  "main": "inactivity.js",
+  "engines": {
+    "node": ">=18.3"
+  },
+  "scripts": {
+    "demo": "node cli.js demo",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "optionalDependencies": {
+    "@qvac/sdk": "^0.23.0"
+  },
+  "dependencies": {
+    "ffplay": "^1.1.0"
+  }
+}

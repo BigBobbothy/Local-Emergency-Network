@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "bundle:guardian": "bare-pack --linked --host android-arm64 --host android-arm --host android-x64 --out src/guardian.bundle.js worker/guardian.js"
+  }
+}
